@@ -63,8 +63,8 @@ in Json format
   "s3.bucket.name": "hungnv-public",
   "s3.region": "ap-northeast-1",
   "storage.class": "io.confluent.connect.s3.storage.S3Storage",
-  "aws.access.key.id": "AKIASIBNHJK2SGP2WBWA",
-  "aws.secret.access.key": "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",
+  "aws.access.key.id": "Value",
+  "aws.secret.access.key": "Value",
   
   "partitioner.class": "io.confluent.connect.storage.partitioner.DefaultPartitioner",  
   "format.class": "io.confluent.connect.s3.format.json.JsonFormat",  
