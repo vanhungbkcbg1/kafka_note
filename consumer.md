@@ -2,7 +2,9 @@
 đọc message theo thứ tự message đã đẩy vào trong queue,consumer sẽ lưu lại vị trí mà message đã được đọc 
 
 #### consumer nằm trong consumer group,một consumer group thì đọc message trong một topic
-####consumer group đảm bảo một partition trong một topic tại một thời điểm chỉ có một member của group được đọc message
+- consumer group đảm bảo một partition trong một topic tại một thời điểm chỉ có một member của group được đọc message
+- khi consumer join vao consumer group no se duoc assign toi 1 partition, va no se dam nhan viec consume message tren partition do
+  khi consumer leave khoi group, thi qua trinh rebalance se dien ra, de phan bo partition cho nhung worker con lai
 
 single kafka server là một broker
 một partition có thể được replicate ra nhiều broker khác nhau   
