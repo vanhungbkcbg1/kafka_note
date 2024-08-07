@@ -15,13 +15,13 @@ a partition is owned by a singer broker in the cluster, and that broker is calle
 
 ## trường hợp có 1 group consumer
 ##### case 1
-![image1](https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/assets/ktdg_04in01.png)
+![image1](https://www.oreilly.com/api/v2/epubs/9781491936153/files/assets/ktdg_04in01.png)
 ##### case 2
-![image 2](https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/assets/ktdg_04in02.png)
+![image 2](https://www.oreilly.com/api/v2/epubs/9781491936153/files/assets/ktdg_04in02.png)
 ##### case 3
-![image 3](https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/assets/ktdg_04in03.png)
+![image 3](https://www.oreilly.com/api/v2/epubs/9781491936153/files/assets/ktdg_04in03.png)
 ##### case 4
-![image 4](https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/assets/ktdg_04in04.png)
+![image 4](https://www.oreilly.com/api/v2/epubs/9781491936153/files/assets/ktdg_04in04.png)
 
 ## trường hợp có nhiều consumer group cùng read message trên 1 topic, thì các consumer group sẽ độc lập, không phụ thuộc vào consume hiện tại đang làm gì
 ![image](https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/assets/ktdg_04in05.png)
